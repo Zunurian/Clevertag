@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-sizing: border-box;
+}
+
+section{
+    background-image:linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(pexels-suzy-hazelwood-1629236.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+
+}
+
+#header{ 
+    display: flex;
+    justify-content: space-between;
+    padding: 2% 6%;
+}
+
+nav ul li{
+    display: inline-block;
+    padding: 12px 16px;
+}
+
+h2 a{
+    color: #fff;
+    text-decoration-thickness: 5px;
+text-underline-offset: 7px;
+text-decoration-color: aqua;
+}
+
+h2 a:hover{
+    
+    color: aqua;
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    color: #fff;
+    padding: 12px 14px;
+}
+
+nav ul li a:hover{
+    color: aqua;
+}
+
+.text{
+    margin-top: 5%;
+    text-align: center;
+}
+
+.text h1{
+    font-size: 56px;
+    color:aqua;
+    margin-bottom: 10px;
+}
+.text p{
+    font-size: 20px;
+    color:#fff;
+    font-weight: 600;   
+}
+.text button{
+    padding: 12px 10px;
+    font-size: 18px;
+    font-weight: 500;
+    color: rgb(4, 4, 43);
+    background-color: aqua;
+    border-radius: 6px;
+    outline:none;
+    border: 1px solid aqua;
+    
+}
+
+ /*.nav-links{
+    position: absolute;
+    width: 200px;
+    height: 100vh;
+    top: 0;
+    right: -200px;
+    background-color: rgba(89, 0, 255, 0.103);
+    z-index: 2;
+}
+ #close{
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}*/
+
+/*==============ABOUT US=================*/
+
+#About{
+    color: #fff;
+    padding: 40px 30px;
+    background: rgb(6, 6, 34);
+    width: 100%;
+    height: 100%;
+
+}
+
+.coding img{
+    width: 300px;
+    height: 300px ;
+    border-radius: 20px;
+    margin-bottom: 15px;
+}
+
+.coding{
+    text-align: center;
+}
+
+.coding h1
+{      font-size: 56px;
+    margin-bottom: 15px;
+}
+
+span{
+    color: aqua;
+}
+
+.coding h3
+{      font-size: 20px;
+    margin-bottom: 15px;
+}
+
+#About p{ 
+    padding-left: 70px;
+    font-size: 20px;
+    margin-top: 40px;
+}
+
+/*===========Services========*/
+#About{
+    color: #fff;
+    padding: 40px 30px;
+    background: rgb(6, 6, 34);
+    width: 100%;
+    height: 100%;
+
+}
+
+.about{
+    color: #fff;
+    text-align: center;
+    margin-top: 50px;
+    
+}
+
+.about h1{
+    font-size: 56px;
+    margin-bottom: 15px;
+}
+
+.about p{
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+
+
+.about-tn span h1{
+    font-size: 56px;
+    text-align: center;
+}
+
+#text-text {
+  margin-left: 50px; 
+}
+ h3 a {
+    font-size: 25px;
+    text-underline-offset: 10px;
+    text-decoration-thickness: 5px;
+    margin-bottom: 5px;
+    text-decoration-color: aqua;
+}
+
+ h5{
+    font-size: 20px;
+}
